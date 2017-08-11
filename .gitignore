@@ -1,4 +1,27 @@
+#Jekyll
 _site
 .sass-cache
 .jekyll-metadata
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+#vi
+*.swp
+
+#other editors
+*.bak
+
+#Other
 .DS_Store
+Thumbs.db
+tmp
+*.tgz
+*.lock
+*.lck
+
