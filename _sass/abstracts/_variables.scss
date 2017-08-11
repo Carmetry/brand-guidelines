@@ -41,6 +41,12 @@
  * 1) Main identifiable colors involved in creating the UI
  *    Feel free to add your brand's color palette here.
  */
+$corporate-base: #333333;
+$corporate-base-secondary: rgba(51, 51, 51, 0.5);
+$corporate-content: rgba(51, 51, 51, 0.8);
+$corporate-background: rgba(51, 51, 51, 0.05);
+$corporate-action: #f05f40;
+$corporate-action-secondary: #323c94;
 
 /**
  * Neutral Colors
@@ -48,12 +54,9 @@
  */
 $color-white: #fff;
 $color-gray-02: #f9f9f9;
-$color-gray-07: #eee;
 $color-gray-13: #ddd;
 $color-gray-27: #bbb;
-$color-gray-50: #808080;
 $color-gray-60: #666;
-$color-gray-73: #444;
 $color-gray-93: #131313;
 $color-black: #000;
 

@@ -63,6 +63,7 @@
  * Primary navigation link
  */
 .c-primary-nav__link {
+	color: $corporate-base;
 	display: block;
 	padding: 0.5rem 0;
 	cursor: pointer;
@@ -105,7 +106,7 @@
 	 */
 	.c-primary-nav__item.is-active & {
 		@media all and (min-width: $bp-xl) {
-			background: $color-gray-73;
+			background: $corporate-base;
 			color: $color-white;
 		}
 	}
@@ -176,7 +177,7 @@
 		display: block;
 
 		@media all and (min-width: $bp-xl) {
-			background: $color-gray-73;
+			background: $corporate-base;
 			padding: .5rem 1rem 1rem;
 			margin: 0;
 			position: absolute;
@@ -256,7 +257,7 @@
  * Primary navigation icon
  */
 .c-primary-nav__icon {
-	fill: $color-gray-73;
+	fill: $corporate-base;
 	transition: fill 0.2s ease;
 	margin-left: auto;
 
@@ -279,7 +280,7 @@
 	 * Primary navigation icon within active link within vertical header
 	 */
 	.c-header--vertical .c-primary-nav__item.is-active & {
-		fill: $color-gray-73;
+		fill: $corporate-base;
 		transform: rotate(90deg);
 	}
 
@@ -287,7 +288,7 @@
 	 * Primary navigation icon within hovered/focused primary navigation link
 	 */
 	.c-primary-nav__link:hover &, .c-primary-nav__link:focus & {
-		fill: $color-gray-50;
+		fill: $corporate-base-secondary;
 	}
 }
 
@@ -295,7 +296,7 @@
  * Primary navigation subicon
  */
 .c-primary-nav__subicon {
-	fill: $color-gray-73;
+	fill: $corporate-base;
 	transition: fill 0.2s ease;
 	margin-left: auto;
 
@@ -318,7 +319,7 @@
 	 * Primary navigation subicon within active subitem within vertical header
 	 */
 	.c-header--vertical .c-primary-nav__subitem.is-active & {
-		fill: $color-gray-73;
+		fill: $corporate-base;
 		transform: rotate(90deg);
 	}
 
@@ -326,6 +327,6 @@
 	 * Primary navigation icon within hovered/focused primary navigation link
 	 */
 	.c-primary-nav__sublink:hover &, .c-primary-nav__sublink:focus & {
-		fill: $color-gray-50;
+		fill: $corporate-base-secondary;
 	}
 }

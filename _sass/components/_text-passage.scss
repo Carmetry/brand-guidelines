@@ -15,11 +15,11 @@
 	 * Link within the text passage
 	 */
 	a:not(.c-btn) {
-		color: $color-gray-50;
-        text-decoration: underline;
+		color: $corporate-base-secondary;
+        text-decoration: none;
 
 		&:hover, &:focus {
-			color: $color-gray-73;
+			color: $corporate-action;
 		}
 	}
 
@@ -28,8 +28,8 @@
 	 */
 	blockquote {
 		padding-left: 0.8rem;
-		border-left: 3px solid $color-gray-73;
-		color: $color-gray-50;
+		border-left: 3px solid $corporate-base;
+		color: $corporate-base-secondary;
 		font-size: 1rem;
 	 }
 
@@ -45,7 +45,7 @@
 	 */
 	h2 {
 		margin: 2rem 0 0.5rem;
-		color: $color-gray-73;
+		color: $corporate-base;
 		font-weight: bold;
 	}
 
