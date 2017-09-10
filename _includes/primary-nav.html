@@ -90,6 +90,19 @@
         <li class="c-primary-nav__item">
 
             {% for my_page in site.pages %}
+            {% if my_page.url == "/signatures.html" %}
+            <a href="{{ "/signatures.html" | prepend: site.baseurl }}"
+            class="c-primary-nav__link {% if page.url == '/signatures.html' %}is-active
+            is-current{% endif %}">
+            <span class="c-primary-nav__text">Firmas</span>
+            </a>
+            {% endif %}
+            {% endfor %}
+
+        </li><!-- end c-nav__list__item -->
+        <li class="c-primary-nav__item">
+
+            {% for my_page in site.pages %}
             {% if my_page.url == "/business-cards.html" %}
             <a href="{{ "/business-cards.html" | prepend: site.baseurl }}"
             class="c-primary-nav__link {% if page.url == '/business-cards.html' %}is-active
